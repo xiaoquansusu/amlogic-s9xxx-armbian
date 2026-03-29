@@ -141,6 +141,7 @@ on:
           - s905l3b-ip103h
           - s905l3b-rg020et-ca
           - s905l3b-unt403a
+          - s905l3sb
           - s905lb-ipbs9505
           - s905lb-q96-mini
           - s905lb-r3300l
