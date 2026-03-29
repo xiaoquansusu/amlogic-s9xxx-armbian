@@ -290,7 +290,7 @@ on:
       config_board:
         description: "Set the base Armbian board name."
         required: false
-        default: "odroidn2"
+        default: "s905l3b"
 
 env:
   TZ: Etc/UTC
@@ -371,7 +371,7 @@ jobs:
 
           # Set the board name for the base Armbian image
           config_board="${{ inputs.config_board }}"
-          [[ -z "${config_board}" ]] && config_board="odroidn2"
+          [[ -z "${config_board}" ]] && config_board="s905l3b"
 
           # Compile options reference: https://docs.armbian.com/Developer-Guide_Build-Options
           cd build/
